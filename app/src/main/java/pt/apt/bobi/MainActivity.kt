@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.ImageView
 
 private  const val REQUEST_IMAGE_CAPTURE = 100
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.button).setOnClickListener {
             openNativeCamera()
+
         }
     }
 
